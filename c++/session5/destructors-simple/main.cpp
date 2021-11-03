@@ -11,7 +11,7 @@ int main(){
 
     // Calling delete explicitly
 
-    // delete &p1; - Gives error "Invalid free() / delete / delete[] / realloc()" - Double Free
+//    delete &p1; // Gives error "Invalid free() / delete / delete[] / realloc()" - Double Free
     return 0;
 
 }
