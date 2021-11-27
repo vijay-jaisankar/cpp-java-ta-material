@@ -11,8 +11,8 @@ int main(){
         GROUP 0
     */
 
-    // Base b(4,5,6);
-    // Derived d(1,2,3);
+      Base b(4,5,6);
+      Derived d(1,2,3);
 
     /*
         GROUP 1
@@ -45,8 +45,8 @@ int main(){
         GROUP 5
     */
 
-    // b.publicFunctionality();
-    // std::cout<<b.publicVariable<<std::endl;
+    //b.publicFunctionality();
+    //std::cout<<b.publicVariable<<std::endl;
 
     /*
         GROUP 6
@@ -86,5 +86,5 @@ int main(){
     */
 
    // d.accessFunctionality();
-
+    return 0;
 }
